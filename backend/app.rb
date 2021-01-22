@@ -5,9 +5,9 @@ app = Proc.new do
 		'200',
 		{'Content-Type' => 'text/html'}, 
 		[	
-			'<head> <meta charset="UTF-8"> </head>',
+			'<head> <title>Welcome</title> <meta charset="UTF-8"> </head>',
 
-			"<h1>Hello world!, The time is #{Time.now.strftime("%d/%b/%Y, %I:%M %p")}</h1>",
+			"<h1>Hello world! The time is #{Time.now.strftime("%d/%b/%Y, %I:%M %p")}</h1>",
 
 			"<h3>Bienvenido a este sitio de prueba, sólo es un backend sencillo con Ruby</h3>",
 			
