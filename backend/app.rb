@@ -10,11 +10,13 @@ app = Proc.new do
 	[
 		'200',
 		{'Content-Type' => 'text/html'}, 
-		[
+		[	
+			'<head> <meta charset="UTF-8"> </head>',
+
 			"<h1>Hello world!, The time is #{Time.now}</h1>",
 
 			"<p>Bienvenido a este sitio de prueba, sólo es un backend sencillo con Ruby</p>",
-			
+
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
 			labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
 			laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
